@@ -2,6 +2,7 @@
     width: 100%;
     height: 160px;
     background-color: #41A7C2;
+    background-image: url('C:/Users/IBRAHIM/weatherapp/weatherapp/src/assets/2.jfif');
     border-bottom-left-radius: 6%;
     border-bottom-right-radius: 6%;
 }
@@ -26,7 +27,7 @@
 
 .img-state {
     width: 110px;
-    height: 90px;
+    height: 110px;
     padding-top: 15px;
 }
 
