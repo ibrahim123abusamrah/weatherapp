@@ -1,0 +1,15 @@
+p{
+    margin: 0;
+    margin-left: 5px;
+    color: #ffffff;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    height: 30px;
+align-items: center;
+}
+.model{
+    margin-right: 10px;
+}

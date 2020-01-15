@@ -1,0 +1,33 @@
+.flex-container {
+    display: flex;
+    background-color: #41A7C2;
+    border-radius: 9%;
+    margin-top: 5px;
+}
+
+
+.flex-container>div {
+    background-color: #41A7C2;
+    color: white;
+    width: 120px;
+    margin: 5px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+p {
+    margin: 0;
+    width: 120px;
+    height: 20px;
+}
+
+a {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+.what-is{
+    font-size:30px;
+}
