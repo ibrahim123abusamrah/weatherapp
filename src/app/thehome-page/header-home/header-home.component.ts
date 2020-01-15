@@ -11,13 +11,9 @@ export class HeaderHomeComponent implements OnInit {
   @Input() temMin;
   @Input() temMax;
   @Input() date;
-
-
   constructor() {
 
   }
-
   ngOnInit() {
-  
   }
 }

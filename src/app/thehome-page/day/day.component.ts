@@ -7,14 +7,14 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class DayComponent implements OnInit {
   @Input() days;
-  temMin : any;
-  temMax : any;
+  temMin: any;
+  temMax: any;
 
   constructor() { }
 
   ngOnInit() {
-    console.log(this.days)
-  
+    console.log(this.days);
+
   }
 
 }
