@@ -36,7 +36,7 @@ export class HomeComponent implements OnInit {
 	}
 	ngOnInit() {
 		navigator.geolocation.getCurrentPosition(res => {
-			this._weatherService.getWeather(this.location.city, this.location.code).subscribe(data => {
+			this._weatherService.getWeather(res.coords.latitude, res.coords.longitude).subscribe(data => {
 
 				this.weather = data;
 				this.currDay = new Date(this.weather.list[0].dt_txt).toString().substring(0, 3)
